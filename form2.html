@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+    <style>
+        table {
+            margin: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+
+        <form action="">
+            <h2>Novel Services Login</h2>
+            <tr>
+                <td><label for="Name"> Username : </label></td>
+                <td><input type="text" class="sp1" name="Name" id="Name"> </td>
+            </tr>  
+            <tr>
+                <td><label for="pass">Password : </label></td>
+                <td><input type="password" class="sp1" name="pass" id="pass"> </td>
+            </tr>
+            <tr>
+                <td><label for="cname">city of<br> Employment : </label></td>
+                <td><input type="text" class="sp1" name="cname" id="cname"> </td>
+            </tr>
+            <tr>
+                <td><label for="server">Web server : </label></td>
+                <td> <select name="server" id="server" class="sp4">
+                        <option value="">--select server--</option>
+                        <option value="">Chrome</option>
+                        <option value="">Edge</option>
+                        <option value="">Fire Fox</option>
+                    </select> </td>
+                    
+            </tr>
+    </table>
+    <table>
+
+        <tr>
+            <td rowspan="5"><label for="select"> specify <br> your Role :</label> </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="select" id="select">Admin <br>
+                <input type="radio" name="select" id="select">Engineer<br>
+                <input type="radio" name="select" id="select">Manager<br>
+                <input type="radio" name="select" id="select"> Guest<br>
+            </td>
+        </tr>
+    </table>
+    <table>
+
+        <tr>
+            <td rowspan="5">single sign on <br>
+                to the following : </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="select" id="select">med <br>
+                <input type="checkbox" name="select" id="select">payroll<br>
+                <input type="checkbox" name="select" id="select">self-service<br>
+            </td>
+        </tr>
+        
+    </table>
+    <button>login</button>
+    <button>submit</button>
+    </form>
+</body>
+
+</html>

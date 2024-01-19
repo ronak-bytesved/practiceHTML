@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 4</title>
+    <style>
+        table,th,td{
+            border-collapse: collapse;
+            padding: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Patient details (mandatory):</h1>
+        <tr>
+            <td><label for="date">Registration Date</label></td>
+            <td><input type="datetime-local" id="date"></td>
+            <td><label for="dt">&nbsp;is previous date</label></td>
+            <td><input type="checkbox" name="dt" id="dt"></td>
+        </tr>
+        <tr>
+            <td><label for="ptno">patient no </label></td>
+            <td><input type="number" id="ptno" name="ptno" placeholder="(NEW)"></td>
+            <td><label for="mop">Mode of presentation</label></td>
+            <td><select name="mop" id="mop">
+                <option value="pdo">pdo</option>
+                <option value="opd">opd</option>
+                <option value="phy">physic</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="name">Name*  <select name="" id="" >
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Miss.</option>
+            </select></label></td>
+            <td><input type="text" name="name" id="name" required></td>
+            <td><label for="pc">patient category*</label></td>
+            <td><select name="pc" id="pc" required>
+                <option value="">private</option>
+                <option value="">open</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="rel">relation  <select name="" id="" >
+                <option value="Mr.">s/o</option>
+                <option value="Mrs.">s/o</option>
+            </select></label></td>
+            <td><input type="text" name="rel" id="rel" required></td>
+            <td><label for="pc">min department*</label></td>
+            <td><select name="pc" id="pc" required>
+                <option value="">opd</option>
+                <option value="">pdo</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="rel">Age/d.o.b  <select name="" id="" >
+                <option value="Mr.">Year</option>
+                <option value="Mrs.">2001</option>
+                <option value="Mrs.">2002</option>
+                <option value="Mrs.">2002</option>
+            </select></label></td>
+            <td><input type="text" id="dt" style="width: 20px;"> 
+                <input type="date" id="dt" style="width: 10p;"></td>
+                <td><label for="pc">sub department*</label></td>
+                <td><select name="pc" id="pc" required>
+                    <option value="">please select</option>
+                    <option value="">private</option>
+                    <option value="">public</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender*</label></td>
+            <td><select name="" id="gender"> 
+                <option value="male">male</option>
+                <option value="male">female</option>
+            </select></td>
+            <td><label for="drname">Doctor Name*</label></td>
+            <td><select name="drname" id="drname">
+                <option value="">please select</option>
+                <option value="">dr. jigar</option>
+                <option value="">dr. poonam</option>
+            </select></td>
+        </tr>
+    </table>
+</body>
+</html>

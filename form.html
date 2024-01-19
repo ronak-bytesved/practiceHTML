@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .rd {
+            list-style-type: square;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h2>My FeedBack Form</h2>
+        <ul>
+            <li>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name">
+            </li>
+            <br>
+            <li>
+                <label for="email">Email :</label>
+                <input type="email" name="emial" id="email">
+            </li>
+            <br>
+            <li>
+                <label for="pass">Password :</label>
+                <input type="password" name="pass" id="pass">
+            </li>
+            <br>
+            <li>
+                Please check all the emotion that apply to you :
+                <br>
+                <br>
+                <ul>
+                    <li class="rd">
+                        <label for="angry">Angry</label>
+                        <input type="checkbox" name="angry" id="pass">
+                    </li>
+                    <li class="rd">
+                        <label for="Happy">Happy</label>
+                        <input type="checkbox" name="Happy" id="pass">
+                    </li>
+                    <li class="rd">
+                        <label for="sad">sad</label>
+                        <input type="checkbox" name="sad" id="pass">
+                    </li>
+                    <li class="rd">
+                        <label for="Ambivalent">Ambivalent</label>
+                        <input type="checkbox" name="Ambivalent" id="pass">
+                    </li>
+                </ul>
+                <br>
+            </li>
+            <li>
+                How setisfied were you with our services ? :
+                <br>
+                <br>
+                <ul>
+                    <li class="rd">
+                        <label for="Verysetisfied">Very setisfied</label>
+                        <input type="radio" value="Verysetisfied" id="pass" name="same">
+                    </li>
+                    <li class="rd">
+                        <label for="satisfied">satisfied</label>
+                        <input type="radio" value="satisfied" id="pass" name="same">
+                    </li>
+                    <li class="rd">
+                        <label for="dontcare">dont care</label>
+                        <input type="radio" value="dontcare" id="pass" name="same">
+                    </li>
+                    <li class="rd">
+                        <label for="dissatisfied">dissatisfied</label>
+                        <input type="radio" value="dissatisfied" id="pass" name="same">
+                    </li>
+                    <li class="rd">
+                        <label for="verydissatisfied">very dissatisfied</label>
+                        <input type="radio" value="verydissatisfied" id="pass" name="same">
+                    </li>
+                </ul>
+                <br>
+
+                <li><label for="cmt">Further comments : </label>
+                <textarea name="cmt" id="" cols="30" rows="3" id="cmt" placeholder="you can write your comment"></textarea></li>
+            </li>
+            <br>
+
+            <li>
+                <label for="bphoto">Bio phpto : </label>
+                <input type="file" name="bphoto" id="bphoto">
+            </li>
+            <br>
+
+            <li>
+                <label for="loc">Location Visited : </label>
+                <select name="loc" id="loc">
+                        <option value="" >select location</option>
+                        <option value="">Mehsana</option>
+                        <option value="">Ahmadabad</option>
+                        <option value="">Surat</option>
+
+                </select>
+            </li>
+            <br>
+
+            <li>
+                <input type="submit" id="sbm" name="sbm" style="border-radius: 10px;">
+                </li>
+        </ul>
+
+    </form>
+</body>
+
+</html>
